@@ -1,0 +1,37 @@
+body {
+  background-color: #333333;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#drum-machine {
+  position: relative;
+  width: 660px;
+  text-align: center;
+  background-color: #999999;
+}
+
+#drum-grid {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.drum-pad {
+  position: relative;
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding-top: 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
